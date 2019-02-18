@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel 15</title>
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -81,16 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Cú Nừa
+                    Anhquanproject
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ route('shop') }}"><strong><h3>Shop</h3></strong></a>
+                    <a href="{{ route('admin.dashbroad') }}"><strong><h3>Admin Login</h3></strong></a>
+                    
                 </div>
             </div>
         </div>
